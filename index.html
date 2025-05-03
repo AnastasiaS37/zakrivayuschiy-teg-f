@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Закрывающий тег</title>
+    <link rel="icon" href="./images/favicon.ico" sizes="any" />
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./images/mobile-icon.png" />
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/globals.css" />
@@ -11,8 +14,335 @@
     <link rel="stylesheet" href="./styles/animations.css" />
   </head>
   <body class="page">
-    <header class="header"></header>
-    <main></main>
+    <header class="header">
+      <div class="header__wrapper border">
+        <h1 class="header__title">&lt;/HTML&gt;</h1>
+        <h2 class="header__subtitle">закрывающий тег</h2>
+      </div>
+    </header>
+    <main>
+      <section class="main">
+        <article class="card card_preparation">
+          <h3 class="card__title border">
+            Фритрек и нулевой спринт: Подготовка к работе
+          </h3>
+          <div class="card__image__wrapper">
+            <img
+              class="card__image"
+              src="./images/preparation.jpg"
+              alt="Открытый чемодан с вещами"
+              loading="lazy"
+            />
+            <p class="card__image_label">Ожидание</p>
+          </div>
+          <div class="card__description border">
+            <div class="card__description__text">
+              <p>
+                Это было самое начало пути. На этом этапе важно было проникнуться основами и настроиться на учёбу.
+                И, возможно, подумать, как новые знания могут повлиять на ваше будущее.
+              </p>
+              <p>
+                В начале было много мыслей о том, как это будет. Будет ли интересно?
+                Будет ли достаточно времени на учёбу?
+              </p>
+            </div>
+            <div class="card__description__buttons">
+              <button class="card__icon-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="36" fill="none">
+                  <path fill="#000" d="M12 6H9v3h3V6ZM15 6h-3v3h3V6ZM9 9H6v3h3V9ZM9 12H6v3h3v-3ZM9 15H6v3h3v-3ZM18 6h-3v3h3V6ZM12 18H9v3h3v-3ZM15 21h-3v3h3v-3ZM18 24h-3v3h3v-3ZM27 6h3v3h-3V6ZM24 6h3v3h-3V6ZM30 9h3v3h-3V9ZM30 12h3v3h-3v-3ZM30 15h3v3h-3v-3ZM21 6h3v3h-3V6ZM27 18h3v3h-3v-3ZM24 21h3v3h-3v-3ZM21 24h3v3h-3v-3ZM21 9h-3v3h3V9ZM21 27h-3v3h3v-3Z"/>
+                </svg>
+              </button>
+              <button class="card__like-button border">
+                <span class="button__text">Like</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card_blank-page">
+          <h3 class="card__title border">
+            1 спринт: Я — чистый лист
+          </h3>
+          <div class="card__image__wrapper">
+            <img
+              class="card__image"
+              src="./images/blank_page.jpg"
+              alt="Росток, пробивающийся из земли" 
+              loading="lazy"
+            />
+            <p class="card__image_label">Первые шаги</p>
+          </div>
+          <div class="card__description border">
+            <div class="card__description__text">
+              <p>
+                На первых этапах мы работали со страхами и сомнениями, которые часто испытывают новички.
+                Один из них — страх перед чистым листом. Это, конечно же, намного сложнее, чем боязнь куска бумаги.
+                Часто за этим ощущением скрываются более глубокие вопросы: с чего начать? а вдруг будет слишком сложно? что, если я не справлюсь?
+              </p>
+              <p>
+                У меня не было сильной боязни чистого листа. Наоборот, было интересно писать первый код,
+                видеть результат.
+              </p>
+            </div>
+            <div class="card__description__buttons">
+              <button class="card__icon-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="36" fill="none">
+                  <path fill="#000" d="M12 6H9v3h3V6ZM15 6h-3v3h3V6ZM9 9H6v3h3V9ZM9 12H6v3h3v-3ZM9 15H6v3h3v-3ZM18 6h-3v3h3V6ZM12 18H9v3h3v-3ZM15 21h-3v3h3v-3ZM18 24h-3v3h3v-3ZM27 6h3v3h-3V6ZM24 6h3v3h-3V6ZM30 9h3v3h-3V9ZM30 12h3v3h-3v-3ZM30 15h3v3h-3v-3ZM21 6h3v3h-3V6ZM27 18h3v3h-3v-3ZM24 21h3v3h-3v-3ZM21 24h3v3h-3v-3ZM21 9h-3v3h3V9ZM21 27h-3v3h3v-3Z"/>
+                </svg>
+              </button>
+              <button class="card__like-button border">
+                <span class="button__text">Like</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card_what-if">
+          <h3 class="card__title border">
+            1 спринт: А если не получится?
+          </h3>
+          <div class="card__image__wrapper">
+            <img
+              class="card__image"
+              src="./images/what_if.jpg"
+              alt="Баннер с надписью 'что теперь' на английском" 
+              loading="lazy"
+            />
+            <p class="card__image_label">Я справилась</p>
+          </div>
+          <div class="card__description border">
+            <div class="card__description__text">
+              <p>
+                Первый проект — позади! Но это всё ещё самое начало пути. Радость могла быстро померкнуть и смениться ожиданием провала.
+                Или вы, наоборот, могли вдохновиться успехами и поверить в себя.
+              </p>
+              <p>
+                После 1 спринта было воодушевление. Первый сданный проект, первые сложности, с которыми я справилась.
+              </p>
+            </div>
+            <div class="card__description__buttons">
+              <button class="card__icon-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="36" fill="none">
+                  <path fill="#000" d="M12 6H9v3h3V6ZM15 6h-3v3h3V6ZM9 9H6v3h3V9ZM9 12H6v3h3v-3ZM9 15H6v3h3v-3ZM18 6h-3v3h3V6ZM12 18H9v3h3v-3ZM15 21h-3v3h3v-3ZM18 24h-3v3h3v-3ZM27 6h3v3h-3V6ZM24 6h3v3h-3V6ZM30 9h3v3h-3V9ZM30 12h3v3h-3v-3ZM30 15h3v3h-3v-3ZM21 6h3v3h-3V6ZM27 18h3v3h-3v-3ZM24 21h3v3h-3v-3ZM21 24h3v3h-3v-3ZM21 9h-3v3h3V9ZM21 27h-3v3h3v-3Z"/>
+                </svg>
+              </button>
+              <button class="card__like-button border">
+                <span class="button__text">Like</span>
+              </button>
+            </div>
+          </div>
+        </article>
+        
+        <!-- Доделать карточки -->
+        <article class="card card_what-if">
+          <h3 class="card__title border">
+            1 спринт: А если не получится?
+          </h3>
+          <div class="card__image__wrapper">
+            <img
+              class="card__image"
+              src="./images/what_if.jpg"
+              alt="Баннер с надписью 'что теперь' на английском" 
+              loading="lazy"
+            />
+            <p class="card__image_label">Я справилась</p>
+          </div>
+          <div class="card__description border">
+            <div class="card__description__text">
+              <p>
+                Первый проект — позади! Но это всё ещё самое начало пути. Радость могла быстро померкнуть и смениться ожиданием провала.
+                Или вы, наоборот, могли вдохновиться успехами и поверить в себя.
+              </p>
+              <p>
+                После 1 спринта было воодушевление. Первый сданный проект, первые сложности, с которыми я справилась.
+              </p>
+            </div>
+            <div class="card__description__buttons">
+              <button class="card__icon-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="36" fill="none">
+                  <path fill="#000" d="M12 6H9v3h3V6ZM15 6h-3v3h3V6ZM9 9H6v3h3V9ZM9 12H6v3h3v-3ZM9 15H6v3h3v-3ZM18 6h-3v3h3V6ZM12 18H9v3h3v-3ZM15 21h-3v3h3v-3ZM18 24h-3v3h3v-3ZM27 6h3v3h-3V6ZM24 6h3v3h-3V6ZM30 9h3v3h-3V9ZM30 12h3v3h-3v-3ZM30 15h3v3h-3v-3ZM21 6h3v3h-3V6ZM27 18h3v3h-3v-3ZM24 21h3v3h-3v-3ZM21 24h3v3h-3v-3ZM21 9h-3v3h3V9ZM21 27h-3v3h3v-3Z"/>
+                </svg>
+              </button>
+              <button class="card__like-button border">
+                <span class="button__text">Like</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card_what-if">
+          <h3 class="card__title border">
+            1 спринт: А если не получится?
+          </h3>
+          <div class="card__image__wrapper">
+            <img
+              class="card__image"
+              src="./images/what_if.jpg"
+              alt="Баннер с надписью 'что теперь' на английском" 
+              loading="lazy"
+            />
+            <p class="card__image_label">Я справилась</p>
+          </div>
+          <div class="card__description border">
+            <div class="card__description__text">
+              <p>
+                Первый проект — позади! Но это всё ещё самое начало пути. Радость могла быстро померкнуть и смениться ожиданием провала.
+                Или вы, наоборот, могли вдохновиться успехами и поверить в себя.
+              </p>
+              <p>
+                После 1 спринта было воодушевление. Первый сданный проект, первые сложности, с которыми я справилась.
+              </p>
+            </div>
+            <div class="card__description__buttons">
+              <button class="card__icon-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="36" fill="none">
+                  <path fill="#000" d="M12 6H9v3h3V6ZM15 6h-3v3h3V6ZM9 9H6v3h3V9ZM9 12H6v3h3v-3ZM9 15H6v3h3v-3ZM18 6h-3v3h3V6ZM12 18H9v3h3v-3ZM15 21h-3v3h3v-3ZM18 24h-3v3h3v-3ZM27 6h3v3h-3V6ZM24 6h3v3h-3V6ZM30 9h3v3h-3V9ZM30 12h3v3h-3v-3ZM30 15h3v3h-3v-3ZM21 6h3v3h-3V6ZM27 18h3v3h-3v-3ZM24 21h3v3h-3v-3ZM21 24h3v3h-3v-3ZM21 9h-3v3h3V9ZM21 27h-3v3h3v-3Z"/>
+                </svg>
+              </button>
+              <button class="card__like-button border">
+                <span class="button__text">Like</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card_what-if">
+          <h3 class="card__title border">
+            1 спринт: А если не получится?
+          </h3>
+          <div class="card__image__wrapper">
+            <img
+              class="card__image"
+              src="./images/what_if.jpg"
+              alt="Баннер с надписью 'что теперь' на английском" 
+              loading="lazy"
+            />
+            <p class="card__image_label">Я справилась</p>
+          </div>
+          <div class="card__description border">
+            <div class="card__description__text">
+              <p>
+                Первый проект — позади! Но это всё ещё самое начало пути. Радость могла быстро померкнуть и смениться ожиданием провала.
+                Или вы, наоборот, могли вдохновиться успехами и поверить в себя.
+              </p>
+              <p>
+                После 1 спринта было воодушевление. Первый сданный проект, первые сложности, с которыми я справилась.
+              </p>
+            </div>
+            <div class="card__description__buttons">
+              <button class="card__icon-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="36" fill="none">
+                  <path fill="#000" d="M12 6H9v3h3V6ZM15 6h-3v3h3V6ZM9 9H6v3h3V9ZM9 12H6v3h3v-3ZM9 15H6v3h3v-3ZM18 6h-3v3h3V6ZM12 18H9v3h3v-3ZM15 21h-3v3h3v-3ZM18 24h-3v3h3v-3ZM27 6h3v3h-3V6ZM24 6h3v3h-3V6ZM30 9h3v3h-3V9ZM30 12h3v3h-3v-3ZM30 15h3v3h-3v-3ZM21 6h3v3h-3V6ZM27 18h3v3h-3v-3ZM24 21h3v3h-3v-3ZM21 24h3v3h-3v-3ZM21 9h-3v3h3V9ZM21 27h-3v3h3v-3Z"/>
+                </svg>
+              </button>
+              <button class="card__like-button border">
+                <span class="button__text">Like</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card_what-if">
+          <h3 class="card__title border">
+            1 спринт: А если не получится?
+          </h3>
+          <div class="card__image__wrapper">
+            <img
+              class="card__image"
+              src="./images/what_if.jpg"
+              alt="Баннер с надписью 'что теперь' на английском" 
+              loading="lazy"
+            />
+            <p class="card__image_label">Я справилась</p>
+          </div>
+          <div class="card__description border">
+            <div class="card__description__text">
+              <p>
+                Первый проект — позади! Но это всё ещё самое начало пути. Радость могла быстро померкнуть и смениться ожиданием провала.
+                Или вы, наоборот, могли вдохновиться успехами и поверить в себя.
+              </p>
+              <p>
+                После 1 спринта было воодушевление. Первый сданный проект, первые сложности, с которыми я справилась.
+              </p>
+            </div>
+            <div class="card__description__buttons">
+              <button class="card__icon-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="36" fill="none">
+                  <path fill="#000" d="M12 6H9v3h3V6ZM15 6h-3v3h3V6ZM9 9H6v3h3V9ZM9 12H6v3h3v-3ZM9 15H6v3h3v-3ZM18 6h-3v3h3V6ZM12 18H9v3h3v-3ZM15 21h-3v3h3v-3ZM18 24h-3v3h3v-3ZM27 6h3v3h-3V6ZM24 6h3v3h-3V6ZM30 9h3v3h-3V9ZM30 12h3v3h-3v-3ZM30 15h3v3h-3v-3ZM21 6h3v3h-3V6ZM27 18h3v3h-3v-3ZM24 21h3v3h-3v-3ZM21 24h3v3h-3v-3ZM21 9h-3v3h3V9ZM21 27h-3v3h3v-3Z"/>
+                </svg>
+              </button>
+              <button class="card__like-button border">
+                <span class="button__text">Like</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card_what-if">
+          <h3 class="card__title border">
+            1 спринт: А если не получится?
+          </h3>
+          <div class="card__image__wrapper">
+            <img
+              class="card__image"
+              src="./images/what_if.jpg"
+              alt="Баннер с надписью 'что теперь' на английском" 
+              loading="lazy"
+            />
+            <p class="card__image_label">Я справилась</p>
+          </div>
+          <div class="card__description border">
+            <div class="card__description__text">
+              <p>
+                Первый проект — позади! Но это всё ещё самое начало пути. Радость могла быстро померкнуть и смениться ожиданием провала.
+                Или вы, наоборот, могли вдохновиться успехами и поверить в себя.
+              </p>
+              <p>
+                После 1 спринта было воодушевление. Первый сданный проект, первые сложности, с которыми я справилась.
+              </p>
+            </div>
+            <div class="card__description__buttons">
+              <button class="card__icon-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="39" height="36" fill="none" class="like-icon">
+                  <path fill="#000" d="M12 6H9v3h3V6ZM15 6h-3v3h3V6ZM9 9H6v3h3V9ZM9 12H6v3h3v-3ZM9 15H6v3h3v-3ZM18 6h-3v3h3V6ZM12 18H9v3h3v-3ZM15 21h-3v3h3v-3ZM18 24h-3v3h3v-3ZM27 6h3v3h-3V6ZM24 6h3v3h-3V6ZM30 9h3v3h-3V9ZM30 12h3v3h-3v-3ZM30 15h3v3h-3v-3ZM21 6h3v3h-3V6ZM27 18h3v3h-3v-3ZM24 21h3v3h-3v-3ZM21 24h3v3h-3v-3ZM21 9h-3v3h3V9ZM21 27h-3v3h3v-3Z"/>
+                </svg>
+              </button>
+              <button class="card__like-button border">
+                <span class="button__text">Like</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <button
+          class="save-button border"
+          type="button" 
+          onclick="window['save-dialog'].showModal()" 
+          aria-controls="save-dialog"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21">
+            <use href="svg/floppy.svg#floppy" />
+          </svg>
+          <span class="button__text">Сохранить на память</span>
+        </button>
+      
+        <dialog class="dialog border" id="save-dialog">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21" width="39" height="39">
+            <use href="svg/floppy.svg#floppy" />
+          </svg>
+          <span class="dialog__text button__text">Вставьте
+            дискету, чтобы продолжить
+          </span>
+          <form method="dialog" class="dialog__close-form">
+            <button class="dialog__close-form__button border">
+              <span class="dialog__close-form__button__text button__text">ок</span>
+            </button>
+          </form>
+
+        </dialog>
+
+      </section>
+    </main>
     <script src="./scripts/like.js"></script>
   </body>
 </html>

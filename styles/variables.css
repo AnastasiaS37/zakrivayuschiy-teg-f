@@ -1,1 +1,10 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --font-inter: "Inter-Variable";
+    --font-pressstart: "PressStart2P";
+    --card-text-font-weight: 400;
+    --card-title-font-weight: 700;
+    --header-width: clamp(375px, calc(700 / 1440 * 100vw), 700px);
+    --stroke-color: #fff;
+}
+
