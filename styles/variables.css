@@ -1,4 +1,3 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
     --font-inter: "Inter-Variable";
     --font-pressstart: "PressStart2P";
@@ -6,5 +5,19 @@
     --card-title-font-weight: 700;
     --header-width: clamp(375px, calc(700 / 1440 * 100vw), 700px);
     --stroke-color: #fff;
+    --bg-image:
+      repeating-linear-gradient(90deg, #d3d3d3 2px, transparent 4px),
+      repeating-linear-gradient(#d3d3d3 2px, transparent 4px),
+      linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+    --theme-bg-color: #fff;
+    --accent-color: #000;
+    --save-button-width: 339px;
+    --save-button-height: 55px;
+    --save-button-image-width: 21px;
+    --dialog-width: 357px;
+    --dialog-height: 193px;
+    --dialog-close-button-width: 293px;
+    --button-text-color: #fff;
+    --heart-contour-color: #000;
+    --animation-fill-color: #FF0000;
 }
-
