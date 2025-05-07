@@ -1,4 +1,3 @@
-Ссылка на репозиторий:
 https://github.com/AnastasiaS37/zakrivayuschiy-teg-f#
 
 Ссылка на сайт:
